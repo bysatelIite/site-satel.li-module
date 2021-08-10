@@ -1,0 +1,21 @@
+
+h1, h2, h3, h4, h5, h6, p, ol, ul { 
+	font-size: 16px; 
+	font-weight: normal;
+	line-height: 118%;
+}
+
+.type-mono { 
+	
+}
+
+.type-justify { 
+	text-align: justify;
+	line-height: 59%;
+}
+
+.type-justify:after { 
+	content: ''; 
+	display: inline-block; 
+	width: 100%; 
+}
