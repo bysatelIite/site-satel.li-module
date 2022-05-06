@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>{{ page.title }}</title>	
+	<link rel="stylesheet" href="module.css">
+	<link rel="stylesheet" href="{{ page.path | replace: '.html', '.css' }}">
+
+	<meta http-equiv="refresh" content="1;url='{{ page.url }}/te'" />
+	<link rel="canonical" href="'{{ page.url }}/te'" />
+</head>
+
+<head>
+	<meta charset="utf-8">
+	<title>{{ page.title }}</title>
+  </head>
+
+<body>
+	{{ content }}
+</body>
+
+</html>
