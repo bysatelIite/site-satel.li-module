@@ -4,11 +4,11 @@
 <head>
 	<meta charset="utf-8">
 	<title>{{ page.title }}</title>	
-	<link rel="stylesheet" href="module.css">
-	<link rel="stylesheet" href="{{ page.path }}.css">
+	<link rel="stylesheet" href="/module.css">
+	<link rel="stylesheet" href="{{ page.name | replace: '.html', '.css' }}">
 
-	<meta http-equiv="refresh" content="1;url='{{ page.dir }}/te'" />
-	<link rel="canonical" href="'{{ page.dir }}/te'" />
+	<meta http-equiv="refresh" content="1;url='/te'" />
+	<link rel="canonical" href="/te" />
 </head>
 
 <head>
