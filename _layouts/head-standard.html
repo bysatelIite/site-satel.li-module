@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <title>{{ page.title }}</title>
   <link rel="stylesheet" href="module.css">
-  <link rel="stylesheet" href="{{ page.basename }}.css">
+  <link rel="stylesheet" href="{{ page.path | replace: '.html', '.css' }}">
 </head>
 
 <body>
