@@ -1,14 +1,13 @@
 # satel.li-module
 
-This is the primary asset folder for all of satel.li/te's domains and subdomains. 
-It contains the basic Jekyll structure and basic building blocks & styles that are required. 
+essentially the 'remote_theme' for 'site-satel.li' repositories. 
+an easy way to update some standard layouts and default CSS files across multiple of my sites. much more preferred than a git submodule i think. 
 
-every subdomain of 'satel.li' has three essential components: 
+most of the sites are composed of these three files: 
 
-- direct
-- redirect 
-- 404 
+- 200 : /te.html
+- 307 : /index.html
+- 404 : /404.html
 
-the module defines these three pages and outputs them into the site directory. 
-
+'satel.li' sites are all 'suffixed' with a 'te' to form the word 'satellite'. as such, the index of the site is not the 'true' index, but the 'te' is. all sites use a simple redirect to the 'te' page. 
 
